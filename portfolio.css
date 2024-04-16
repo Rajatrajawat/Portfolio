@@ -1,0 +1,49 @@
+/* styles.css */
+/* Add your custom styles here */
+
+/* Example: Style for the hero section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Example: Style for the about section */
+#about {
+    background-color: #f8f8f8;
+}
+
+/* Example: Style for the skills section */
+#skills {
+    background-color: #fff;
+}
+
+/* Example: Style for the projects section */
+#projects {
+    background-color: #f8f8f8;
+}
+
+/* Example: Style for the contact section */
+#contact {
+    background-color: #fff;
+}
+
+/* Responsive utility classes for margin and padding */
+@media (max-width: 768px) {
+    .lg\:mb-0 {
+        margin-bottom: 0 !important;
+    }
+    .lg\:mb-4 {
+        margin-bottom: 1rem !important;
+    }
+    .lg\:mb-8 {
+        margin-bottom: 2rem !important;
+    }
+    .lg\:pt-4 {
+        padding-top: 1rem !important;
+    }
+    .lg\:pt-8 {
+        padding-top: 2rem !important;
+    }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajat Rajawat - Software Engineer</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Navigation -->
+    <nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+
+        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+
+            <div class="pl-4 flex items-center">
+                <a class="text-gray-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                    Rajat Rajawat
+                </a>
+            </div>
+
+            <div class="block lg:hidden pr-4">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600
+                  hover:text-gray-700 hover:border-teal-500 appearance-none focus:outline-none">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+                id="nav-content">
+                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                    <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-black font-bold no-underline"
+                            href="#about">About</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                            href="#skills">Skills</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                            href="#projects">Projects</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                            href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mx-auto flex items-center justify-center h-screen">
+        <div class="text-center">
+            <h1 class="text-4xl lg:text-6xl font-bold mb-4 text-gray-900">Rajat Rajawat</h1>
+            <p class="text-lg text-gray-700 mb-8">Software Engineer | Python | Full Stack Developer</p>
+            <a href="#contact"
+                class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full inline-block">Hire
+                Me</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="bg-white border-b py-8" id="about">
+        <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+            <div class="w-full lg:w-1/5 pr-4">
+                <!-- Add your profile image here -->
+                <img src="./images.png" alt="Profile Image" class="rounded-full mb-4 lg:mb-0 w-48 h-48 object-cover">
+            </div>
+            <div class="w-full lg:w-4/5 pl-4">
+                <h2 class="text-3xl font-bold text-gray-900 mb-2">About Me</h2>
+                <p class="text-gray-700 leading-tight">I am a passionate software engineer with expertise in Python
+                    programming and full-stack development. I enjoy solving complex problems and building scalable
+                    and efficient web applications.</p>
+                    <p>Proficient in a wide range of programming languages and frameworks encompassing both front-end and back-end development.</p>
+                    <p>Skilled in JavaScript, React, Node.js, Python, and database management systems like SQL and MongoDB.</p>
+                    <p> Adept at translating complex concepts into scalable, efficient solutions while adhering to best coding practices and industry standards.</p>
+                    <p>Experience of working on Machine learning Algorithms and Artificial Intelligence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-gray-100 py-8" id="skills">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 mb-2 text-center">Skills</h2>
+            <!-- Add your skills here -->
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Python</h3>
+                        <p class="text-gray-700">Flask, Django</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Front-end</h3>
+                        <p class="text-gray-700">HTML, CSS, JavaScript, React</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Back-end</h3>
+                        <p class="text-gray-700">Sql,Node.js, Express, MongoDB</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Version Control</h3>
+                        <p class="text-gray-700">Git, GitHub</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">DevOps</h3>
+                        <p class="text-gray-700">Docker, Jenkins</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-8" id="projects">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 mb-2 text-center">Projects</h2>
+            <!-- Add your project details here -->
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-1/2 px-4 mb-4">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">COVID‐19 PREDICTION SYSTEM</h3>
+                        <p class="text-gray-700"><b>Field(s) of study: Information and Communication Technologies: Software and applications development and
+                            analysis</b> 
+                            <br>
+                            <br>
+                            <b>Overview:</b>
+                            The COVID-19 Prediction System is a data-driven project developed using Python, Pandas, NumPy, Matplotlib, and machine learning libraries. This system leverages various techniques, including Linear Regression and Time Series algorithms, to analyze historical data and predict future trends in COVID-19 cases. The goal is to provide valuable insights into the potential trajectory of the pandemic, aiding in decision-making and resource allocation.
+
+                            <br>
+
+                            <br>
+                            <b>Key Features:</b><br>
+                            <dl>
+                                <dt><b>Data Collection:</b></dt>
+                                <dd>The system collects COVID-19 data from reliable sources, such as public health databases or APIs, ensuring accurate and up-to-date information for analysis.</dd><br>
+
+                                <dt><b>Data Preprocessing:</b></dt>
+                                <dd>Utilizing Pandas and NumPy, the project preprocesses raw data by handling missing values, cleaning outliers, and transforming data into a format suitable for analysis.</dd><br>
+
+                                <dt><b>Exploratory Data Analysis (EDA):</b></dt>
+                                <dd>Matplotlib is employed for EDA, enabling the visualization of key statistics, trends, and patterns in COVID-19 cases over time.</dd>
+                                <dd>Charts, graphs, and interactive visualizations provide a comprehensive understanding of the data.</dd><br>
+
+                                <dt><b>Time Series Analysis:</b></dt>
+                                <dd>The project employs time series algorithms to analyze temporal patterns in COVID-19 data.
+                                    Time series decomposition techniques are utilized to separate trends, seasonality, and residuals.</dd><br>
+
+                                    <dt><b>Linear Regression Model:</b></dt>
+                                    <dd>A Linear Regression model is implemented using machine learning techniques to predict future COVID-19 cases based on historical data.
+                                        The model is trained on a subset of the data and validated for accuracy.</dd><br>
+
+                                        <dt><b>Prediction Visualization:</b></dt>
+                                        <dd>Matplotlib is used to visualize the predictions generated by the model, providing a clear representation of the forecasted COVID-19 trends.</dd><br>
+                            </dl>
+                            <b>Conclusion:</b>The COVID-19 Prediction System is a valuable tool for analyzing and forecasting the trajectory of the pandemic. By integrating Python, Pandas, NumPy, Matplotlib, and machine learning techniques, this project demonstrates the ability to leverage data science methodologies to gain insights and make informed predictions related to the COVID-19 pandemic.
+
+
+                            </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-4">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900"><b>Project Title: Spotify Clone-  HTML/CSS/JavaScript</b></h3>
+                        <p class="text-gray-700"><b>Overview:</b>
+                              It is an ambitious web development project that replicates the iconic music streaming platform Spotify. Leveraging HTML, CSS, and JavaScript, this project aims to showcase not only the design and layout aspects but also the interactive and dynamic features that make Spotify a popular choice among music enthusiasts.
+                              <br>
+                              <br>
+                              <b>Key Features</b>
+
+                              <ol>
+                                <li>1.HTML Structure:</li>
+                                <li>2.CSS Styling:</li>
+                                <li>3.Interactive Navigation:</li>
+                                <li>4.Music Library Display:</li>
+                                <li>5.Audio Player:</li>
+                                <li>6.Responsive Design:</li>
+                              </ol>
+                              <br>
+                              <b>Conclusion:</b>It is not just a visual replica but a functional Spotify clone that showcases proficiency in HTML, CSS, and JavaScript. The project demonstrates the ability to create an interactive and dynamic web application, capturing the essence of a popular music streaming platform like Spotify.
+                            </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-4">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900"><b>Hospital Management System</b></h3>
+                        <br>
+                        <p class="text-gray-700"><b>Overview:</b>It is a comprehensive Hospital Management System developed using Python for the backend logic and SQL for database management. This project aims to streamline and optimize various administrative and clinical processes within a healthcare facility. HealthHub provides a user-friendly interface for hospital staff to efficiently manage patient records, appointments, billing, and other essential functionalities. <br>
+                            <br><b>Key Features:</b>
+                            <ol>
+                                <li>1.Prescription and Medication Tracking:</li>
+                                <li>2.
+                                    Billing and Invoicing:</li>
+                                <li>3.Inventory Management:</li>
+                                <li>4.SQL Database Integration:</li>
+                               
+                            </ol><br>
+                            <b>Conclusion:</b>
+                            It is a robust Hospital Management System that streamlines administrative processes and enhances patient care within a healthcare facility. Developed using Python and SQL, this project demonstrates proficiency in backend logic, database management, and user interface design for an effective and secure hospital management solution.
+                            </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 mb-4">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Netflix Clone - ReelReplica
+
+                        </h3> 
+                        <p class="text-gray-700"><b>Overview:</b>
+                            It is a web development project aimed at replicating the user interface of the popular streaming platform Netflix, using HTML and CSS. The primary goal is to showcase proficiency in front-end development skills, delivering a visually appealing and responsive Netflix clone that users can explore seamlessly.
+                            
+                            <br>
+                            <br>
+                            <b>Key Features:</b>
+                        <ol type="1">
+                            <li>1.HTML Structure:</li>
+                            <li>2.CSS Styling:</li>
+                            <li>3.Responsive Design:</li>
+                            <li>4.Header Navigation:</li>
+                            <li>5.CSS Animations:</li>
+                            <li>6.Browser Compatibility:</li>
+
+                        </ol>
+                    <br><b>Conclusion:</b>It is a showcase of HTML and CSS skills, demonstrating the ability to replicate the visual elements of a complex web application like Netflix. The project emphasizes clean code, responsive design, and attention to detail, providing users with a visually appealing and user-friendly Netflix-like experience.
+
+
+
+
+
+                </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-gray-100 py-8" id="contact">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 mb-2 text-center">Contact</h2>
+            <!-- Add your contact form or details here -->
+            <div class="flex justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/3 bg-white p-6 rounded-lg shadow">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                            <input type="text" id="name" name="name" class="w-full p-2 border rounded">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email" class="w-full p-2 border rounded">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                            <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full inline-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Rajat Rajawat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Include the JavaScript file at the end of the body -->
+    <script defer src="./portfolio.js"></script>
+</body>
+
+</html>
